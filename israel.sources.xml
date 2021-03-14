@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="latin-1"?>
+
+<sources>
+
+<mappings>
+<channel name="israel.channels.xml">
+	<url>http://www.sat-israel.co.il/files/israel.channels.xml</url>
+</channel>
+</mappings>
+
+<sourcecat sourcecatname="Israel XMLTV (xz)">
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - Main XMLTV (xz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-main.xml.xz</url>
+</source>
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - Sport+Children XMLTV (xz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-sport.xml.xz</url>
+</source>
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - International XMLTV (xz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-int.xml.xz</url>
+</source>
+</sourcecat>
+
+<sourcecat sourcecatname="Israel XMLTV (gz)">
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - Main XMLTV (gz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-main.xml.gz</url>
+</source>
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - Sport+Children XMLTV (gz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-sport.xml.gz</url>
+</source>
+<source type="gen_xmltv" nocheck="1" channels="israel.channels.xml">
+   <description>HOT Israel - International XMLTV (gz)</description>
+   <url>http://www.sat-israel.co.il/files/guide-int.xml.gz</url>
+</source>
+</sourcecat>
+
+</sources>
